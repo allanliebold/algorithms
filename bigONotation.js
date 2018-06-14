@@ -4,3 +4,10 @@ function log(array) {
   console.log(array[0]);
   console.log(array[1]);
 }
+
+// Linear runtime - Big O Notation "O(n) O of n"
+function logAll(array) {
+  for (var i = 0; i < array.length; i++) {
+    console.log(array[i]); 
+  }
+}
