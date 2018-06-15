@@ -22,3 +22,6 @@ function addAndLog(array) {
 }
 
 // Logarithmic runtime - Big O Notation "O(log n)"
+function binarySearch(array, key) {
+    
+}
