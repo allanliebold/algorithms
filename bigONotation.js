@@ -27,5 +27,16 @@ function binarySearch(array, key) {
   var high = array.length - 1;
   var mid, element;
   
+  while (low <= high) {
+    mid = Math.floor((low + high) / 2, 10);
+    element = array[mid];
+    if (element < key) {
+      
+    } else if (element > key) {
+      
+    } else {
+      
+    }
+  }
   
 }
