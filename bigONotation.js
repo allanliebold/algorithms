@@ -11,3 +11,5 @@ function logAll(array) {
     console.log(array[i]); 
   }
 }
+
+// Exponential runtime - Big O Notation "O(n^2)"
