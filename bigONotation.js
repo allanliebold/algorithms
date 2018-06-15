@@ -13,3 +13,6 @@ function logAll(array) {
 }
 
 // Exponential runtime - Big O Notation "O(n^2)"
+function addAndLog(array) {
+  
+}
