@@ -31,12 +31,12 @@ function binarySearch(array, key) {
     mid = Math.floor((low + high) / 2, 10);
     element = array[mid];
     if (element < key) {
-      
+      low = mid + 1;
     } else if (element > key) {
-      
+      high = mid - 1;
     } else {
-      
+      return mid;
     }
   }
-  
+  return -1;
 }
