@@ -19,6 +19,8 @@ function harmlessRansomNote(noteText, magazineText) {
       }
     }
   });
+  
+  return notePossible;
 }
 
 harmlessRansomNote('', 'this is all the magazine text in the magazine');
