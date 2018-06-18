@@ -3,22 +3,21 @@ function harmlessRansomNote(noteText, magazineText) {
   var magazineArr = magazineText.split(' ');
   var magazineObj = {};
   
-  magazineArr.forEach(function(word => {
+  magazineArr.forEach(word => {
     if (!magazineObj[word]) magazineObj[word] = 0;
     magazineObj[word]++;
   });
-
-  noteArr.forEach(word => {
-    var notePossible = true;
-    noteArr.forEach(word => {
-      if (magazineObj[word]) {
-        magazineObj[word]--;
-        if (magazineObj[word] < 0) notePossible = false;
-      } else {
-        notePossible = false;  
-    });
   
-  return notePossible;
+  var noteIsPossible = true;
+  noteArr.forEach(word => {
+    if (magazineObj[word]) {
+      magazineObj[word]--;
+      if (magazineObj[word] < 0) noteIsPossible = false;
+    }
+    else noteIsPossible = false; 
+  });
+  
+  return noteIsPossible;
 }
 
 harmlessRansomNote('this is a secret note', 'note the secret that this is a clip from a magazine'
