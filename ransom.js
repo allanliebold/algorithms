@@ -3,5 +3,7 @@ function harmlessRansomNote(noteText, magazineText) {
   var magazineArr = magazineText.split(' ');
   var magazineObj = {};
   
-  
+  magazineArr.forEach(function(word) {
+    
+  });
 }
