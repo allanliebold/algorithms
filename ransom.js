@@ -4,6 +4,7 @@ function harmlessRansomNote(noteText, magazineText) {
   var magazineObj = {};
   
   magazineArr.forEach(function(word => {
-    
+    if (!magazineObj[word]) magazineObj[word] = 0;
+    magazineObj[word]++;
   });
 }
