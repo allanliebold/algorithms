@@ -7,8 +7,7 @@ function harmlessRansomNote(noteText, magazineText) {
     if (!magazineObj[word]) magazineObj[word] = 0;
     magazineObj[word]++;
   });
-  
-  console.log(magazineObj);
+ 
 }
 
 harmlessRansomNote('', 'this is all the magazine text in the magazine');
