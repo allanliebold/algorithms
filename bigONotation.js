@@ -22,6 +22,7 @@ function addAndLog(array) {
 }
 
 // Logarithmic runtime - Big O Notation "O(log n)"
+// The time complexity does not scale with input size 
 function binarySearch(array, key) {
   var low = 0;
   var high = array.length - 1;
