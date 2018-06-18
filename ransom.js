@@ -23,4 +23,4 @@ function harmlessRansomNote(noteText, magazineText) {
   return notePossible;
 }
 
-harmlessRansomNote('', 'this is all the magazine text in the magazine');
+harmlessRansomNote('this is a secret note', 'note the secret that this is a clip from a magazine'
