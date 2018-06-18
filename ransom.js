@@ -13,6 +13,8 @@ function harmlessRansomNote(noteText, magazineText) {
     noteArr.forEach(word => {
       if (magazineObj[word]) {
          magazineObj[word]--;
+      } else {
+        notePossible = false;  
       }
     }
   });
