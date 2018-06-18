@@ -16,9 +16,7 @@ function harmlessRansomNote(noteText, magazineText) {
         if (magazineObj[word] < 0) notePossible = false;
       } else {
         notePossible = false;  
-      }
-    }
-  });
+    });
   
   return notePossible;
 }
