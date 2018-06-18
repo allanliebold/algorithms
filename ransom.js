@@ -9,7 +9,7 @@ function harmlessRansomNote(noteText, magazineText) {
   });
 
   noteArr.forEach(word => {
-    
+    var notePossible = true;
   });
 }
 
