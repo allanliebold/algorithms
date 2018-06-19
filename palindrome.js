@@ -8,8 +8,7 @@ function isPalindrome(string) {
     if (validCharacters.indexOf(char) > -1) lettersArr.push(char);
   });
   
-  if (lettersArr.join('') === lettersArr.reverse().join('')) return true;
-  else return false;
+  return lettersArr.join('') === lettersArr.reverse().join('');
 }
 
 isPalindrome("Madam I'm Adam");
