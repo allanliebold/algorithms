@@ -12,4 +12,4 @@ function isPalindrome(string) {
 }
 
 isPalindrome("Madam I'm Adam");
-console.log(isPalindrome("racecar");
+console.log(isPalindrome("racecar"); // true
