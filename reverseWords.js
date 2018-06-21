@@ -3,10 +3,8 @@ function reverseWords(string) {
   var wordsArr = string.split(' ');
   var reversedWordsArr = [];
   
-  for (var i = 0; i < wordsArr.length; i++) {
-    var reversedWord = '';
-    
-    reversedWordsArr.push(wordsArr[i];
+  wordsArr.forEach(word => {
+   
   }
 }
 
