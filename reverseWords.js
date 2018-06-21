@@ -4,6 +4,8 @@ function reverseWords(string) {
   var reversedWordsArr = [];
   
   for (var i = 0; i < wordsArr.length; i++) {
+    var reversedWord = '';
+    
     reversedWordsArr.push(wordsArr[i];
   }
 }
