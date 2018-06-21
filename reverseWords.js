@@ -3,7 +3,9 @@ function reverseWords(string) {
   var wordsArr = string.split(' ');
   var reversedWordsArr = [];
   
-  
+  for (var i = 0; i < wordsArr.length; i++) {
+    
+  }
 }
 
 reverseWords('this is a string'); // should return 'siht si a gnirts'
