@@ -9,7 +9,9 @@ function reverseWords(string) {
       reversedWord += word[i]; 
     }
     reversedWords.Arr.push(reversedWord);
-  }
+  });
+  
+  return reversedWordsArr.join(' ');
 }
 
 reverseWords('this is a string'); // should return 'siht si a gnirts'
