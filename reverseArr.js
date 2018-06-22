@@ -1,1 +1,3 @@
-
+function reverseArrayInPlace(arr) {
+  
+}
