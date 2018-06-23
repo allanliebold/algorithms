@@ -6,6 +6,10 @@ function getMedian(array) {
   
 }
 
+function getMode(array) {
+  
+}
+
 function meanMedianMode(array) {
   
 }
