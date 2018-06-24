@@ -13,6 +13,10 @@ function getMode(array) {
     if (!modeObj[num] modeObj[num] = 0;
     modeObj[num]++;
   });
+    
+  for (var num in modeObj) {
+    
+  }
 }
 
 function meanMedianMode(array) {
