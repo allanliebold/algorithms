@@ -10,7 +10,7 @@ function getMode(array) {
   var modeObj = {};
 
   array.forEach(num => {
-    
+    if (!modeObj[num] modeObj[num] = 0;
   });
 }
 
