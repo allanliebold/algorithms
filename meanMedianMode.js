@@ -13,7 +13,8 @@ function getMode(array) {
     if (!modeObj[num] modeObj[num] = 0;
     modeObj[num]++;
   });
-    
+  
+  var maxFrequency = 0; 
   for (var num in modeObj) {
     
   }
