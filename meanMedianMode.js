@@ -11,6 +11,7 @@ function getMode(array) {
 
   array.forEach(num => {
     if (!modeObj[num] modeObj[num] = 0;
+    modeObj[num]++;
   });
 }
 
