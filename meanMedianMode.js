@@ -25,6 +25,8 @@ function getMode(array) {
   }
     
  if (modes.length === Object.keys(modeObj).length) modes = [];
+    
+ return modes;
 }
 
 function meanMedianMode(array) {
