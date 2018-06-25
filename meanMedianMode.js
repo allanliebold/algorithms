@@ -21,6 +21,7 @@ function getMode(array) {
       modes = [ num ];  
       maxFrequency = modeObj[num];
     }
+    else if (modeObj[num] === maxFrequency) modes.push(num);
   }
 }
 
