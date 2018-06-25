@@ -2,7 +2,7 @@ function getMean(array) {
   var sum = 0;
   
   array.forEach(num => {
-    
+    sum += num;
   });
 }
 
