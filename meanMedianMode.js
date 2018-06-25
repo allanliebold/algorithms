@@ -4,6 +4,9 @@ function getMean(array) {
   array.forEach(num => {
     sum += num;
   });
+  
+  var mean = sum / array.length;
+  return mean;
 }
 
 function getMedian(array) {
