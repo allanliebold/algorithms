@@ -24,9 +24,7 @@ function getMode(array) {
     else if (modeObj[num] === maxFrequency) modes.push(num);
   }
     
- if (modes.length === Object.keys(modeObj).length) {
-     
- }
+ if (modes.length === Object.keys(modeObj).length) modes = [];
 }
 
 function meanMedianMode(array) {
