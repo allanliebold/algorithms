@@ -10,7 +10,7 @@ function getMean(array) {
 }
 
 function getMedian(array) {
-  
+  array.sort(function(a, b) { return a - b });
 }
 
 function getMode(array) {
