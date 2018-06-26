@@ -13,7 +13,7 @@ function getMedian(array) {
   array.sort(function(a, b) { return a - b });
   var median;
   if (array.length % 2 !== 0) {
-    median = array[array.length / 2)];
+    median = array[Math.floor(array.length / 2)];
   }
 }
 
