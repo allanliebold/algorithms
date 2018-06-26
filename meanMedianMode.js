@@ -14,6 +14,8 @@ function getMedian(array) {
   var median;
   if (array.length % 2 !== 0) {
     median = array[Math.floor(array.length / 2)];
+  } else {
+    var mid1 = array[(array.length / 2) - 1]; 
   }
 }
 
