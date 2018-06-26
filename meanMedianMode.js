@@ -12,6 +12,9 @@ function getMean(array) {
 function getMedian(array) {
   array.sort(function(a, b) { return a - b });
   var median;
+  if (array.length % 2 !== 0) {
+    
+  }
 }
 
 function getMode(array) {
