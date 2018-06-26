@@ -17,6 +17,7 @@ function getMedian(array) {
   } else {
     var mid1 = array[(array.length / 2) - 1]; 
     var mid2 = array[array.length / 2];
+    median = (mid1 + mid2) / 2;
   }
 }
 
