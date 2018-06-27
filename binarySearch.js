@@ -9,4 +9,5 @@ function binarySarch(numArray, key) {
   else if (middleElem > key && numArray.length > 1) {
     return binarySearch(numArray.splice(0, middleIdx), key);
   }
+  else return false;
 }
