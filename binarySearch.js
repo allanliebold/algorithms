@@ -1,1 +1,3 @@
-
+function binarySarch(numArray, key) {
+  
+}
