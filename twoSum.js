@@ -7,7 +7,7 @@ function twoSum(numArray, sum) {
     var currNum = numArray[i];
     var counterpart = sum - currNum; 
     if (hashtable.indexOf(counterpart) !== -1) {
-       
+       pairs.push([currNum, counterpart]);
     }
   }
 }
