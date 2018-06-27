@@ -6,5 +6,8 @@ function twoSum(numArray, sum) {
   for (var i = 0; i < numArray.length; i++) {
     var currNum = numArray[i];
     var counterpart = sum - currNum; 
+    if (hashtable.indexOf(counterpart) !== -1) {
+       
+    }
   }
 }
