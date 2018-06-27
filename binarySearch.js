@@ -3,4 +3,7 @@ function binarySarch(numArray, key) {
   var middleElem = numArray[middleIdx];
   
   if (middleElem === key) return true;
+  else if (middleElem < key && numArray.length > 1) {
+    
+  }
 }
