@@ -14,4 +14,4 @@ function twoSum(numArray, sum) {
   return pairs;
 }
 
-twoSum([1, 6, 4, 5, 3, 3], 7); 
+twoSum([1, 6, 4, 5, 3, 3], 7); // returns [[6,1], [3,4], [3,4]]
