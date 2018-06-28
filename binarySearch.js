@@ -11,3 +11,5 @@ function binarySarch(numArray, key) {
   }
   else return false;
 }
+
+binarySearch([],);
