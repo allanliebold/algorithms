@@ -5,3 +5,4 @@ function fibonacci(position) {
   else return fibonacci(position - 1) + fibonacci(position - 2); 
 }
 
+fibonacci(6); // returns 8
