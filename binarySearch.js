@@ -12,4 +12,4 @@ function binarySarch(numArray, key) {
   else return false;
 }
 
-binarySearch([],);
+binarySearch([5, 7, 12, 16, 26, 34, 47, 53, 75], 34);
