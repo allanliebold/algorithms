@@ -1,1 +1,3 @@
-
+function sieveOfEratosthenes(num) {
+  
+}
