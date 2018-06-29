@@ -12,6 +12,8 @@ fibonacci(6); // returns 8
 function fibMemo(index, cache) {
   // index: index of number in fibonacci sequence
   // cache: an array used as memory
+  
+  cache = cache || [];
 }
 
 // Memoization - Check to see if number already exists in cache. If it does, use that number. 
