@@ -27,3 +27,5 @@ function fibMemo(index, cache) {
 
 // Memoization - Check to see if number already exists in cache. If it does, use that number. 
 // If it doesn't, calculate it and put it in the cache to use in the future. 
+
+fibMemo(15); // returns 610
