@@ -21,6 +21,8 @@ function fibMemo(index, cache) {
       cache[index] = fibMemo(index - 1, cache) + fibMemo(index - 2, cache);  
     }
   }
+  
+  return cache[index];
 }
 
 // Memoization - Check to see if number already exists in cache. If it does, use that number. 
