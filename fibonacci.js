@@ -15,6 +15,9 @@ function fibMemo(index, cache) {
   
   cache = cache || []; // either use the cache passed in as an argument or create an empty array
   if (cache[index]) return cache[index];
+  else {
+    if (index < 3) return 1;
+  }
 }
 
 // Memoization - Check to see if number already exists in cache. If it does, use that number. 
