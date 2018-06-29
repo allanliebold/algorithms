@@ -13,7 +13,7 @@ function fibMemo(index, cache) {
   // index: index of number in fibonacci sequence
   // cache: an array used as memory
   
-  cache = cache || [];
+  cache = cache || []; // either use the cache passed in as an argument or create an empty array
 }
 
 // Memoization - Check to see if number already exists in cache. If it does, use that number. 
