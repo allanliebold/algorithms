@@ -8,3 +8,8 @@ function fibonacci(position) {
 fibonacci(6); // returns 8
 
 // Memoized Fibonacci
+
+function fibMemo(index, cache) {
+  // index: index of number in fibonacci sequence
+  // cache: an array used as memory
+}
