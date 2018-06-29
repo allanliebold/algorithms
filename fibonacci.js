@@ -6,3 +6,5 @@ function fibonacci(position) {
 }
 
 fibonacci(6); // returns 8
+
+// Memoized Fibonacci
