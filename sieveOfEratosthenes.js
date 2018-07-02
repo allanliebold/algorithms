@@ -4,6 +4,8 @@ function sieveOfEratosthenes(num) {
   for (var i = 0; i <= num; i++) {
     primes[i] = true;  
   }
+  
+  primes[0] = false;
 }
 
 sieveOfEratosthenes(20); // should return [2, 3, 5, 7, 11, 13, 17, 19]
