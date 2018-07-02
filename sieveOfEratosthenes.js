@@ -9,7 +9,9 @@ function sieveOfEratosthenes(num) {
   primes[1] = false;
   
   for (var i = 2; i <= Math.sqrt(num); i++) {
-    
+    for (var j = 2; j * i <= n; j++) {
+      
+    }
   }
 }
 
