@@ -16,3 +16,4 @@ function sieveOfEratosthenes(num) {
 }
 
 sieveOfEratosthenes(20); // should return [2, 3, 5, 7, 11, 13, 17, 19]
+sieveOfEratosthenes(10);
