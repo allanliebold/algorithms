@@ -9,5 +9,7 @@ function merge(array1, array2) {
   while (array1.length && array2.length) {
     var minElem;
     if (array1[0] < array2[0]) minElem = array1.shift();
+    else minElem = array2.shift();
+    result.push(minElem);
   }
 }
