@@ -5,5 +5,8 @@ function mergeSort(arr) {
 }
 
 function merge(array1, array2) {
-  
+  var result = [];
+  while (array1.length && array2.length) {
+           
+  }
 }
