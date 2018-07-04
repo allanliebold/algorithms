@@ -14,4 +14,6 @@ function merge(array1, array2) {
   }
   
   if (array1.length) result = result.concat(array1);
+  else result = result.concat(array2);
+  return result;
 }
