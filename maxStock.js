@@ -15,6 +15,8 @@ function maxStockProfit(pricesArr) {
       changeBuyPrice = true;
     } else {
       var tempProfit = sellPrice - buyPrice;
+      if (tempProfit > maxProfit) maxProfit = tempProfit;
+      changeBuyPrice = false;
     }
   }
 }
