@@ -12,9 +12,9 @@ function maxStockProfit(pricesArr) {
     sellPrice = pricesArr[i + 1];
     
     if (sellPrice < buyPrice) {
-      
+      changeBuyPrice = true;
     } else {
-      
+      var tempProfit = sellPrice - buyPrice;
     }
   }
 }
