@@ -8,7 +8,7 @@ function maxStockProfit(pricesArr) {
   var changeBuyPrice = true;
   
   for (var i = 0; i < pricesArr.length; i++) {
-    buyPrice = pricesArr[i];
+    if (changeBuyPrice) buyPrice = pricesArr[i];
     sellPrice = pricesArr[i + 1];
   }
 }
