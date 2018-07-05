@@ -19,4 +19,6 @@ function maxStockProfit(pricesArr) {
       changeBuyPrice = false;
     }
   }
+  
+  return maxProfit;
 }
