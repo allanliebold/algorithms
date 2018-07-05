@@ -6,6 +6,6 @@ function maxStockProfit(pricesArr) {
   var sellPrice = 0;
   
   for (var i = 0; i < pricesArr.length; i++) {
-    
+    buyPrice = pricesArr[i];
   }
 }
