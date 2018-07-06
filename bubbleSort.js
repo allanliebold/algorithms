@@ -10,4 +10,4 @@ function bubbleSort(array) {
   }
 }
 
-bubbleSort([5, 3, 8, 2, 1, 4]);
+bubbleSort([5, 3, 8, 2, 1, 4]); // returns [1, 2, 3, 4, 5, 8]
