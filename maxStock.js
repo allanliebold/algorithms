@@ -23,4 +23,4 @@ function maxStockProfit(pricesArr) {
   return maxProfit;
 }
 
-maxStockProfit();
+maxStockProfit([32, 46, 26, 38, 40, 48, 42]); // returns 22
