@@ -1,4 +1,6 @@
 function isPalindrome(string) {
+  // checks if a string is the same forward and backward, 
+  // ignoring spaces, special characters, and capitalization
   string = string.toLowerCase();
   var charactersArr = string.split('');
   var validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
