@@ -2,6 +2,7 @@ function isPalindrome(string) {
   // checks if a string is the same forward and backward, 
   // ignoring spaces, special characters, and capitalization
   string = string.toLowerCase();
+  
   var charactersArr = string.split('');
   var validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
   
@@ -13,6 +14,7 @@ function isPalindrome(string) {
   return lettersArr.join('') === lettersArr.reverse().join('');
 }
 
-isPalindrome("Madam I'm Adam");
-console.log(isPalindrome("racecar")); // return true
+isPalindrome("Madam I'm Adam"); // return true
+
+console.log(isPalindrome("racecar")); // log true
 console.log(isPalindrome("this is not a palindrome")); // return false
