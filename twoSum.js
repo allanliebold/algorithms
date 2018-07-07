@@ -9,6 +9,7 @@ function twoSum(numArray, sum) {
     if (hashtable.indexOf(counterpart) !== -1) {
        pairs.push([currNum, counterpart]);
     }
+
     hashtable.push(currNum);
   }
   return pairs;
