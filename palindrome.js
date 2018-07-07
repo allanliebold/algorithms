@@ -12,5 +12,5 @@ function isPalindrome(string) {
 }
 
 isPalindrome("Madam I'm Adam");
-console.log(isPalindrome("racecar")); // true
+console.log(isPalindrome("racecar")); // return true
 console.log(isPalindrome("this is not a palindrome")); // false
