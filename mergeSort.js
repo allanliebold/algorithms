@@ -19,4 +19,4 @@ function merge(array1, array2) {
   return result;
 }
 
-mergeSort();
+mergeSort([2, 4], [1, 3]); 
