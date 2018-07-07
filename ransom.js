@@ -16,7 +16,6 @@ function harmlessRansomNote(noteText, magazineText) {
     }
     else noteIsPossible = false; 
   });
-  
   return noteIsPossible;
 }
 
