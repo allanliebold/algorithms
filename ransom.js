@@ -20,4 +20,4 @@ function harmlessRansomNote(noteText, magazineText) {
   return noteIsPossible;
 }
 
-harmlessRansomNote('this is a secret note', 'note the secret that this is a clip from a magazine');
+harmlessRansomNote('this is a secret note', 'note the secret that this is a clip from a magazine'); // return true
