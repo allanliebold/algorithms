@@ -12,6 +12,7 @@ function twoSum(numArray, sum) {
 
     hashtable.push(currNum);
   }
+
   return pairs;
 }
 
