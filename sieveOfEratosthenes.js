@@ -4,7 +4,6 @@ function sieveOfEratosthenes(num) {
   for (var i = 0; i <= num; i++) {
     primes[i] = true;  
   }
-  
   primes[0] = false;
   primes[1] = false;
   
