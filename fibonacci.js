@@ -8,6 +8,7 @@ function fibonacci(position) {
 }
 
 fibonacci(6); // returns 8
+fibonacci(7); // returns 13
 
 // Memoized Fibonacci
 function fibMemo(index, cache) {
