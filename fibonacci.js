@@ -7,6 +7,7 @@ function fibonacci(position) {
   }
 }
 
+fibonacci(4);
 fibonacci(6); // returns 8
 // return fibonacci(5) + fibonacci(4)
 // fibonacci(5) - return fibonacci(4) + fibonacci(3)
