@@ -8,6 +8,9 @@ function fibonacci(position) {
 }
 
 fibonacci(6); // returns 8
+// return fibonacci(5) + fibonacci(4)
+// fibonacci(5) - return fibonacci(4) + fibonacci(3)
+//
 fibonacci(7); // returns 13
 
 // Memoized Fibonacci
