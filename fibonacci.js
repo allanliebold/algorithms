@@ -8,6 +8,9 @@ function fibonacci(position) {
 }
 
 fibonacci(4); // returns 3
+// return fibonacci(3) + fibonacci(2)
+// fibonacci(3) return fibonacci(2) + fibonacci(1) 
+
 fibonacci(6); // returns 8
 // return fibonacci(5) + fibonacci(4)
 // fibonacci(5) - return fibonacci(4) + fibonacci(3)
