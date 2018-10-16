@@ -14,10 +14,10 @@ fibonacci(6); // returns 8
 // fibonacci(4) - return fibonacci(3) + fibonacci(2) 
 // fibonacci(3) - return fibonacci(2) + fibonacci(1)
 // fibonacci(2) - less than 3. return 1. fibonacci(1) less than 3. return 1. 
-// fibonacci(3) return 1 + 1
-// fibonacci(4) return 3 + 1
+// fibonacci(3) return 1 + 1 (fibonacci(2) + fibonacci(1))
+// fibonacci(4) return 2 + 1 (fibonacci(3) + fibonacci(2))
 //
-// fibonacci(6) 5 + 3 
+// fibonacci(6) 5 + 3 (fibonacci(5) + fibonacci(4))
 
 fibonacci(7); // returns 13
 
