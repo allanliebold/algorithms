@@ -15,7 +15,8 @@ function fibMemo(index, cache) {
   // cache: an array used as memory
   
   cache = cache || []; // either use the cache passed in as an argument or create an empty array
-  if (cache[index]) return cache[index];
+  if (cache[index]) { 
+    return cache[index];
   else {
     if (index < 3) return 1;
     else {
