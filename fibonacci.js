@@ -18,6 +18,7 @@ fibonacci(6); // returns 8
 // fibonacci(4) return 2 + 1 (fibonacci(3) + fibonacci(2))
 //
 // fibonacci(6) 5 + 3 (fibonacci(5) + fibonacci(4))
+// return 8
 
 fibonacci(7); // returns 13
 
